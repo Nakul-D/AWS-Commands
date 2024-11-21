@@ -1,0 +1,7 @@
+Create a .pem key pair and keep it on your desktop, NOT IN DOWNLOADS FOLDERS, it should be on desktop
+when you open terminal of your local machine it shows this address C:\Users\DELL>
+type cd cd Desktop
+it should change to C:\Users\DELL\Desktop>
+now type ssh -i name_of_your_keypair ec2-user@public_ipv4_address_of_your_instance
+it will ask some question - type yes and press enter
+you will have logged into your instance
